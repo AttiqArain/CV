@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<style>
+#UpBox{
+width:45px;
+height:65px;
+background-color:gray;
+}
+#redBox{
+width:45px;
+height:65px;
+background-color:red;
+}
+#emptyBox{
+width:45px;
+height:65px;
+}
+#Name{
+font-size:35px;
+margin-top:-12px;
+}
+#Pic{
+  width:180px;
+  height:180px;
+  border: slategrey;
+  border-style: solid;
+}
+#icon{
+width:20px;
+height: 20px;
+}
+#horizentalLine{
+  height: 3px;
+  color:brown;
+  background-color: brown;
+}
+#hrline{
+  height: 14px;
+  width:2px;
+  color:brown;
+  background-color: brown;
+
+}
+
+#title{
+  font-size: 25px;
+  font-weight: bold;
+}
+#marginClass{
+margin-left: 15px;
+}
+#heading{
+font-size:12px;
+color:red;
+
+}
+div.line{
+  line-height: 1.1;
+}
+p.line{
+  line-height: 1.1;
+}
+div.linePB{
+  line-height: 3;
+}
+div.ManageLine{
+  line-height: 50%;
+}
+#leftText{
+padding-left:350px;
+}
+#workTitle{
+  font-size: 19px;
+  font-weight: bold;
+}
+#companyTitle{
+  font-size: 19px;
+  
+}
+#description{
+  font-size: 15px;
+}
+#progressBar{
+height: 20px;
+width:100%;
+line-height:2;
+background-color: white;
+}
+#textBoldJustify{
+  letter-spacing: 70px;
+  font-weight: bold;
+  color: red;
+}
+div.ManageLine{
+  line-height: 1.1;
+}
+#progress{
+background-color: red;
+}
+</style>
+<body>
+  
+<div class="container-fluid mt-3">
+   <div class="row">
+     <!-- Box -->
+    <div class="col-1"id="UpBox"></div>
+    <div class="col-5 ">
+      <!--Name-->
+	<div id="Name">Elon Musk</div><br>
+  <!--Name discription-->
+	<font class="h6">Aiming to reduce global warming through sustainable
+	energy production and consumption and reducing the
+	"risk by human extinction" by "making life multiplanetry"
+	and setting up a human colony on Mars.</font>
+	</div><!--Profile Picture-->
+    <div class="col-1 "><img src="EMpic.png " id="Pic" class="img rounded-circle float-right"></div>
+	<!--Socail Media addresses-->
+    <div class="col-5">
+    <!--Email-->
+    <p class="text-end">elonmusk@teslamotors.com
+      <!--Email link through pic-->
+      <a href="https://mail.google.com/mail/u/0/?ogbl#inbox?compose=GTvVlcSGKnPQbclXGvDRzLBfQbhtjKPRgJvGtWbNWSnLKwxzKxXgtcVNvjQNzQmrjpFtRslvCwBjv">
+        <img src="email.jpg" id="icon">
+      </a>
+    </p>
+        <!--Phone-->
+        <p class="text-end">650-681-5000
+          <!--Email link through pic-->
+           <img src="phone.png" id="icon">
+        </p>
+      </p>
+      <!--Address-->
+      <p class="text-end">Los Angeles, USA
+        <!--Email link through pic-->
+        <a href="https://www.google.com/maps/place/Los+Angeles,+CA,+USA/@34.0522342,-118.2436849,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipMkAFC7_ptudF3LwEe8ppA_MSO2D3EnQyUNtzJ3!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMkAFC7_ptudF3LwEe8ppA_MSO2D3EnQyUNtzJ3%3Dw100-h86-k-no!7i1080!8i921!4m5!3m4!1s0x80c2c75ddc27da13:0xe22fdf6f254608f4!8m2!3d34.0522342!4d-118.2436849">
+          <img src="address.png" id="icon">
+        </a>
+      </p>
+  
+            <!--Skype-->
+            <p class="text-end">elon.musk
+              <!--skype-->
+              <a href="https://web.skype.com/">
+                <img src="skype.jpg" id="icon">
+              </a>
+            </p>
+      
+    </div>
+  </div>
+<hr id="horizentalLine">
+
+<!--About work experiences-->
+<div class="row">
+  <!-- Box -->
+  <div class="col-1" id="emptyBox"><br><br>
+    <div id="redBox"></div><br><br><br><br><br>
+    <div id="redBox"></div><br><br><br><br><br><br><br><br>
+    <div id="redBox"></div><br><br><br><br><br><br>
+    <div id="redBox"></div><br><br><br><br><br><br>
+    <div id="redBox"></div><br><br><br><br><br><br>
+    <div id="redBox"></div><br>
+    <div id="redBox"></div>
+  </div>
+  <!--Left side-->
+  <div class="col-6  "id="marginClass" id="line">
+   
+   <!--Workexperince 1--> 
+   <p id="title" > Work Experience</p><div class="line">
+	<span id="heading">06/2006 - Present 
+    <span id="leftText" >
+      San Mateo, USA
+    </span></span>
+	<br>
+	<span id="workTitle">Chairman</span>
+		<br>
+	<span id="companyTitle">SolarCity</span>
+</div>
+
+<p id="heading">Accomplishments</p>
+<div class="line" id="description">
+  Created a collabration between SolarCity and tesla to use electric <br>
+  vechile batteries to smooth the impact of rooftop solor on the power <br>grid.<br>
+Provided the initial concept and finacial concept
+</div>
+
+   <!--Workexperince 2--> <br>
+   <div class="line">
+    <span id="heading">02/2004 - Present 
+      <span id="leftText" >
+        Palo Alto, USA
+      </span></span>
+    <br>
+    <span id="workTitle">CEO and Product Architect</span>
+      <br>
+    <span id="companyTitle">Tesla Motors</span>
+  </div>
+  
+  <p id="heading">Accomplishments</p>
+  <div class="line" id="description">
+    Curently oversee the company's product strategy-including the<br>
+    design engineering and manufacturing more and more affordable<br>
+    electric vechile for mainstream consumers.<br>
+    Insusted on using carbon fiber composite materials in the hull to<br>
+    minimize weight developed the battry module and even some <br>
+    elements of design, like the headlights.<br>
+    Recived Global Green 2006 priduct design award for Tesla Roadster<br>
+    desin 
+  </div>
+
+<!--Workexperince 3--> <br>
+<div class="line">
+  <span id="heading">06/2002 - Present 
+    <span id="leftText" >
+      Hawthorne, USA
+    </span></span>
+  <br>
+  <span id="workTitle">CEO and CTO</span>
+    <br>
+  <span id="companyTitle">SpaceX</span>
+</div>
+
+<p id="heading">Accomplishments</p>
+<div class="line" id="description">
+  Place to reduce spce transporatation costs to enable people to colonize<br>Mars.<br>
+  Oversee the development of rockets and spacecraft for misson to <br>
+  Earth orbit and ultimately to other planets.<br>
+  Developed the Falcon 9 spacecrafts which replaced the space shuttle,br>
+  when it retired on 2011.
+</div>
+
+<!--Workexperince 4--> <br>
+<div class="line">
+  <span id="heading">03/1999 - 10/2002 
+    <span id="leftText" >
+      San Jose, USA
+    </span></span>
+  <br>
+  <span id="workTitle">CEO</span>
+    <br>
+  <span id="companyTitle">X.com and Paypal</span>
+</div>
+
+<p id="heading">Accomplishments</p>
+<div class="line" id="description">
+  Involved in the development of new business models, conducted a<br>
+  sucessful viral marketing camping, which led to a rapid increase in the<br>
+  number of customers.<br>
+  Created a methof of securely transferring money using a recipient's<br>
+  email address.
+</div>
+
+<!--Workexperince 5--> <br>
+<div class="line">
+  <span id="heading">01/1995 - 02/1999 
+    <span id="leftText" >
+      California, USA
+    </span></span>
+  <br>
+  <span id="workTitle">Co-founder</span>
+    <br>
+  <span id="companyTitle">Zip2</span>
+</div>
+
+<p id="heading">Accomplishments</p>
+<div class="line" id="description">
+ Created a platform where newspapers-including credible onse as New<br>
+ York Times - could offer their customers some additional commercial<br>
+ services
+</div>
+<br>
+   <!--Educaion 1--> 
+   <p id="title" > Eduction</p><div class="line">
+    <span id="heading">09/1992 - 06/1995
+     </span>
+    <br>
+    <span id="workTitle">Bechlor of Science in Economics</span>
+      <br>
+    <span id="companyTitle">Wharton School of university of Pennsylvania</span>
+  </div>
+  <br>
+  <!--education 2-->
+  <div class="line">
+  <span id="heading">09/1992 - 06/1995
+  </span>
+ <br>
+ <span id="workTitle">Bechlor of Science in Physics</span>
+   <br>
+ <span id="companyTitle">Penn's College of Arts and Sciences</span>
+</div>
+
+
+
+
+  </div>
+
+
+
+  <!--Right side-->
+  <div class="col ">
+    <p id="title"> Skills & Competences</p>
+    <div class="row">
+    <div class="col-1 "></div>
+
+
+    <!--Skills Text area-->
+    <div class="col-5 text-end" class="linePB">
+      <!--Text 1bar-->
+     <br> <div class="line">Thinking through first principles
+      <!--Text 2bar-->
+      <br><br>Micromanaging</div>
+       <!--Text 3bar-->
+       <br>Goal orinted
+        <!--Text 4bar-->
+       <br><br>Future focused
+       <!--Text 5bar-->
+       <br><br>Critical thinking
+       <!--Text 6bar-->
+       <br><br>Resiliecy
+       <!--Text 7bar-->
+       <br><br><p class="line">Verbal and written communication</p>
+       <!--Text 8bar-->
+       Leadership 
+       <!--Text 9bar-->
+      <br><br>Creativity
+       <!--Text 10bar-->
+       <br><br>Time Managment
+    </div><br>
+    
+    <!--Skills Bar area-->
+    <div class="col-6  "id="textBoldJustify" >llll
+<!--bar1--><div class="linePB">
+<div class="progress float-end border border-danger rounded-0" id="progressBar">
+  <div class="progress-bar " id="progress" id="progressBar" style="width:100%;"></div>
+</div>
+
+<!--bar2-->
+<br><div class="progress float-end border border-danger rounded-0" id="progressBar">
+  <div class="progress-bar "style="width:90%;" id="progress"></div>
+</div>
+
+<!--bar3-->
+<br><div class="progress float-end border border-danger rounded-0" id="progressBar">
+  <div class="progress-bar "style="width:100%; "id="progress"></div>
+</div>
+
+<!--bar4-->
+<br><div class="progress float-end border border-danger rounded-0" id="progressBar">
+  <div class="progress-bar "style="width:100%;"id="progress"></div>
+</div>
+
+<!--bar5-->
+<br><div class="progress float-end border border-danger rounded-0" id="progressBar">
+  <div class="progress-bar "style="width:92%;"id="progress"></div>
+</div>
+
+<!--bar6-->
+<br><div class="progress float-end border border-danger rounded-0" id="progressBar">
+  <div class="progress-bar "style="width:100%;"id="progress"></div>
+</div>
+
+<!--bar7-->
+<br><div class="progress float-end border border-danger rounded-0" id="progressBar">
+  <div class="progress-bar "style="width:87%;"id="progress"></div>
+</div>
+
+<!--bar8-->
+<br><div class="progress float-end border border-danger rounded-0" id="progressBar">
+  <div class="progress-bar "style="width:97%;"id="progress"></div>
+</div>
+
+<!--bar9-->
+<br><div class="progress float-end border border-danger rounded-0" id="progressBar">
+  <div class="progress-bar "style="width:85%;"id="progress"></div>
+</div>
+
+<!--bar10-->
+<br><div class="progress float-end border border-danger rounded-0" id="progressBar">
+  <div class="progress-bar "style="width:100%;"id="progress"></div>
+</div>
+
+</div>
+    </div>
+  </div>
+  
+    <br><!--Acivements-->
+    <span id="workTitle">Achievements & Certificates</span><br><br>
+    <!--achivements 1-->
+    <div class="line"> <span id="companyTitle">IEEE Honorary Membership(2015)</span>
+  
+  <div  id="description">
+   Given to people who have rendered maritorous service to humanity in the IEEE's Designated fields of interest.
+  </div></div><br>
+
+      <!--achivements 2-->
+      <div class="line"> <span id="companyTitle">Businessperson of the year by Fortune Magazine(2013)</span>
+  
+        <div  id="description">
+         Prize recevied for the following companies: 'SpaceX', 'Tesla Motors' and 'SolarCity'
+        </div></div><br>
+  
+      <!--achivements 3-->
+      <div class="line"> <span id="companyTitle">FAI Gold Space Medal (2010)</span>
+  
+        <div  id="description">
+        One of the highest honors in the aerospace industry, shared with prominent personalities like Neil Arsmstrong and John Glenn
+        </div></div><br>
+
+<!--achivements 3-->
+<div class="line"> <span id="companyTitle">Honorary doctorate in design form the ART Center College of Design</span></div><br>
+
+        <!--achivements 4-->
+      <div class="line"> <span id="companyTitle">Honorary doctorate (DUniv) in Aerospace Engineering form the university of Surrey</span></div><br>
+
+      <!--achivements 5-->
+      <div class="line"> <span id="companyTitle">Honorary doctorate (DUniv) of Engineering and Technology form Yale university</span></div><br>
+
+      <span id="workTitle">Languages</span>
+      <p>English &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Afrikaans</p>
+        
+        <span id="workTitle">Interests</span>
+        <p> 
+          Physics | sustainability | Philanthropy | Extraterrestrial life | Altenative Energy Sources | Space engineering | Reading | Video games
+        </p>
+  </div>
+</div>
+
+
+
+</div>
+</body>
+</html>
